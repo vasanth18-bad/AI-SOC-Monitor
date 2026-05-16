@@ -6,7 +6,7 @@ from groq import Groq
 
 def analyze_packet(src_ip, dst_ip, dst_port, protocol):
 
-    client = Groq(api_key="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")
+    client = Groq(api_key = "YOUR_GROQ_API_KEY")
 
     prompt = f"""You are a SOC security analyst. Analyze this network packet.
 
